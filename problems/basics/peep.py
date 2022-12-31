@@ -8,7 +8,12 @@ def peep(p, e):
     """
 
     ### Replace pass with your code
-    pass
+    hybrid=p*1001+e*110
+    power=(p*11)**e
+    if(hybrid==power):
+        return True
+    else:
+        return False
 
 
 #############################################################
