@@ -9,8 +9,21 @@ def rows_and_columns_contain(lst, target):
     """
 
     ### Replace pass with your code
-    pass
-
+    for i in lst:
+        checker=False
+        for j in i:
+            if(j==target):
+                checker=True
+        if(checker==False):
+            return False
+    for i in range(len(lst[0])):
+        checker=False
+        for j in range(len(lst)):
+            if(lst[j][i]==target):
+                checker=True
+        if(checker==False):
+            return False
+    return True
 
 #############################################################
 ###                                                       ###

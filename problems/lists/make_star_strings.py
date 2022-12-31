@@ -7,7 +7,14 @@ def make_star_strings(lst):
     """
 
     ### Replace pass with your code
-    pass
+    myList=[]
+    stars=""
+    for i in lst:
+        stars=""
+        for j in range(i):
+            stars=stars+"*"
+        myList.append(stars)
+    return myList
 
 
 #############################################################

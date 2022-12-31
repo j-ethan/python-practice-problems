@@ -9,8 +9,17 @@ def has_more(lst1, lst2, target):
     """
 
     ### Replace pass with your code
-    pass
-
+    count1=0
+    count2=0
+    for i in lst1:
+        if(i==target):
+            count1=count1+1
+    for j in lst2:
+        if(j==target):
+            count2=count2+1
+    if(count1>count2):
+        return True
+    return False
 
 #############################################################
 ###                                                       ###
