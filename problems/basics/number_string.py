@@ -10,11 +10,11 @@ def number_string(x):
     # we ask you to compute in this exercise.
     s=""
     if(x>0):
-	s="POSITIVE"
+        s="POSITIVE"
     elif(x<0):
-    	s="NEGATIVE"
+        s="NEGATIVE"
     else:
-	s="ZERO"
+        s="ZERO"
 
     ### DO NOT MODIFY THE FOLLOWING LINE!
     return s
